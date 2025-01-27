@@ -1,0 +1,379 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+nav {
+    padding: 20px 40px;
+    margin: 0%;
+}
+
+.logo {
+    margin-right: 200px;
+}
+
+.link {
+    margin-right: 50px;
+}
+
+.glass {
+    margin-left: 50px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.search {
+    margin-left: 150px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 100px;
+    border: 2px solid white;
+    outline: 2px solid white;
+}
+
+.search-hover {
+    border: 2px solid white;
+    outline: 2px solid white;
+}
+
+.nav-but {
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 45px;
+    border: 2px solid red;
+    border: none;
+    outline: 2px;
+}
+
+.serv {
+    text-decoration: none;
+    color: black
+}
+
+.serv:hover {
+    text-decoration: underline;
+    color: red
+}
+
+.sectionone {
+    padding: 0px 150px;
+}
+
+.giant {
+    font-size: 70px;
+    margin-bottom: 30px;
+
+}
+
+.written {
+    font-weight: 200;
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 80px;
+}
+
+.thought {
+    color: red;
+}
+
+.but2 {
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+}
+
+.but2:hover {
+    border: 2px solid red;
+    background-color: white;
+}
+
+.more:hover {
+    color: red;
+}
+
+.btn-divs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.admin {
+    margin-right: 80px;
+    padding: 0px 150px;
+    font: size 20px;
+    font-weight: 200;
+    margin-bottom: 60px;
+    line-height: 30px;
+    /* color:red; */
+}
+
+.admin2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 400px;
+
+
+}
+
+.writen2 {
+    font-size: 20px;
+    font-weight: 70px;
+    margin-bottom: 30px
+}
+
+.admin3 {
+    font-size: 19px;
+}
+
+.Nick {
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sectiontwo {
+    padding: 0px 150px;
+    margin-top: 50px;
+}
+
+.rails {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.rails:hover {
+    color: red;
+}
+
+.sign {
+    background-color: gray;
+    width: 500px;
+    height: 20px;
+    color: black;
+    border: 1px;
+}
+
+.recap {
+    background-color: gray;
+    width: 600px;
+    height: 300px;
+    color: black;
+    border: 1px;
+    margin: 100px;
+    padding: 30px 30px
+}
+
+.cap {
+    font-size: 20px;
+    font-weight: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    color: red;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.implement {
+    font-size: 20px;
+    font-weight: 70px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.name2 {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.name2:hover {
+    color: red;
+
+}
+
+.tive {
+    font-size: 25px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: black;
+}
+
+.diverse {
+    font-size: 25px;
+    font-weight: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.implement2 {
+    font-size: 25px;
+    font-weight: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.name3 {
+    text-decoration: none;
+    color: red;
+}
+
+.fat {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    font-size: 14px;
+}
+
+.fat:hover {
+    color: brown;
+}
+
+.form {
+    background-color: rgb(211, 209, 209);
+    width: 50%;
+    padding: 30px 30px;
+    margin-left: 150px;
+}
+
+form {
+    margin-top: -5px;
+}
+
+input {
+    width: 70%;
+    height: 40px;
+}
+
+.sub {
+    width: 150px;
+}
+
+.form>h1 {
+    margin-bottom: 20px;
+}
+.next{
+    color: red;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    padding: 50px;
+
+}
+
+
+
+.link-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+    
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    
+}
+
+.serv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.comp {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.Instagram {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.gruup {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.gruup:hover {
+    color: red;
+}
+
+.yellow {
+    color: burlywood;
+}
+
+.sec-footer>p {
+    color: gray;
+    font-size: 17px;
+}
+
+.third-footer {
+    color: gray;
+    font: size 17px;
+}
+
+.footer-word {
+    display: flex;
+    flex-direction: row;
+    gap: 290px;
+    margin-top: 50px;
+
+
+}
+
+    
+
+.priv:hover{
+    color: red;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: gray;
+    font-size: 17px;
+}
+.code:hover{
+    color: red;
+}
+.code1{
+    color: gray;
+}
+.Learn{
+    color: gray;
+}
+.Learn:hover{
+    color: red;
+}
+    
